@@ -120,13 +120,17 @@ docker-compose down
 ```
 
 ### Testing
-To test, you need to run the below syntax in your terminal:
+To test, you need to install the dependencies ny running the syntax below:
+
+```bash
+npm install
+```
+
+Then you need to run the below syntax in your terminal:
 
 ```bash
 npm test
 ```
-
-- Note:The test only runs for register and login user,  
 
 ### Technologies Used
 - Node.js
